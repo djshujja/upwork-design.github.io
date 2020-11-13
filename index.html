@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Job Feed</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="container flex">
+        <div class="navbar__brand"><span class="green">up</span>work</div>
+        <div class="form-control">
+          <input type="text" placeholder="Search for jobs" />
+          <button class="btn btn-green">
+            <i class="fas fa-search fa-2x"></i>
+          </button>
+        </div>
+        <nav>
+          <ul>
+            <li>Find Work</li>
+            <li>My Jobs</li>
+            <li>Reports</li>
+            <li>Messages</li>
+          </ul>
+        </nav>
+        <div class="navbar__icons">
+          <i class="fas fa-question fa-lg"></i>
+          <i class="fas fa-bell fa-lg"></i>
+          <i class="far fa-paper-plane fa-lg"></i>
+          <i class="far fa-user fa-lg"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- Find Work -->
+    <section class="find_work">
+      <div class="container grid">
+        <div class="find_work__text">
+          <h3>Find Work</h3>
+        </div>
+        <div class="find_work__search">
+          <input type="text" placeholder="Search for jobs" />
+          <button class="btn btn-green">
+            <i class="fas fa-search fa-2x"></i>
+          </button>
+          <p>Advanced Search</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main -->
+    <section class="main">
+      <div class="container grid">
+        <div class="main__left flex">
+          <div class="">
+            <h3 class="selected"><a href="">My Feed</a></h3>
+            <h3><a href="">Recommended</a></h3>
+          </div>
+          <div>
+            <h2>Recent Searches</h2>
+            <h3><a href="">Hello World</a></h3>
+          </div>
+          <div>
+            <h2>My Categories</h2>
+            <h3><a href="">Web Development</a></h3>
+          </div>
+        </div>
+
+        <div class="main__feed flex">
+          <div class="main__feed_hero">
+            <h2>My Feed</h2>
+          </div>
+          <div class="main__feed_content">
+            <div class="job">
+              <div class="job_title green">
+                <h3 class="green">Developer Needed</h3>
+                <div class="icons">
+                  <i class="icon fas fa-thumbs-up"></i>
+                  <i class="icon far fa-heart"></i>
+                </div>
+              </div>
+              <div class="job_info">
+                <ul>
+                  <li><strong>Fixed Price</strong></li>
+                  <li>-</li>
+                  <li>Expert</li>
+                  <li>-</li>
+
+                  <li>Est. Time: Less than 1 month</li>
+                  <li>-</li>
+                  <li>Est. Budget: $650</li>
+                  <li>-</li>
+                  <li>Posted 5 minuites ago</li>
+                </ul>
+                <p class="job_description">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Excepturi voluptatem quibusdam sunt saepe voluptatum natus
+                  molestias optio facere amet ipsam...<a href="" class="green"
+                    >more</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main__right flex">
+          <div>
+            <h3>My Profile</h3>
+          </div>
+
+          <div>
+            <strong>Visibilty</strong>
+            <h4>Public</h4>
+          </div>
+          <div>
+            <strong>Availability</strong>
+            <h4>More than 30hrs/week</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
